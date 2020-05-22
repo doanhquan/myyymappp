@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.map{
+	width: 100%;
+	 z-index: 99;
+
+}
+.main{
+	background: #f5f6fa;
+	color: #000;
+	text-align: center;
+	height: 50px;
+	width: 150px;
+	margin: auto;
+	position: relative;
+	
+	margin-bottom: 5rem;
+}
+.tool-bar{
+	width: 100%;
+	background: #00cec9;
+	position: fixed;
+	bottom: 0;
+	z-index: 999;
+}
+
+.edit{
+	position: absolute;
+	left: 0;
+	top: 100%;
+	color: #000;
+	z-index: 999;
+	display: flex;
+	justify-content: space-between;
+	background: #00cec9;
+	width: 100%;
+
+	border: 1px solid #00cec9;
+}
+#mySvg{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+input{
+	background: transparent;
+	color: #000;
+	width: 100%;
+	height: 100%;
+	border: none;
+	padding: 1rem;
+	outline: none;
+}
+input::placeholder{
+	color: #000;
+}
+
+
+
+.row-1{
+	display: flex;
+	
+	
+	min-width: 100%;
+
+
+	
+	}
+.f1{
+	min-width: 150px;
+	min-height: 100px;
+	
+
+}
+.f1-item{
+	
+	position: relative;
+	
+	background: #f5f6fa;
+	color: #000;
+	text-align: center;
+	height: 50px;
+	width: 150px;
+	margin: 0 auto;
+	margin-bottom: 5rem;
+	
+	
+	
+}
+
+.row-2{
+	
+	display: flex;
+	justify-content: space-around;
+	
+}
+i{
+	color: #fff;
+}
+
+.nav-link i{
+	color: #000;
+	font-size: 25px;
+	padding: 0 1rem;
+
+	color: #fff;
+}
+.navbar-brand{
+	font-size:30px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #fff;
+	border-right: 1px solid #fff;
+	padding:.3rem 1rem;
+}
+.navbar-brand:hover{
+	color: #fff;
+}
+.f2{
+	margin: 0 1rem 5rem 1rem;
+}
+.login i{
+	font-size: 35px;
+	margin: 0 1rem;
+}
+.upgrade{
+	padding: .3rem 1rem;
+	border: none;
+	background: #fff;
+	color: orange;
+	outline: none;
+	font-size: 25px;
+	font-weight: 600;
+}
+.upgrade:focus{
+	outline: none;
+
+}
+.upgrade i{
+	color: orange;
+}
+.bold,.upp,.it{
+	font-size: 25px;
+	font-weight: 600;
+	color: #fff;
+	padding: 0 1rem;
+}
+.bold:hover,.upp:hover,.it:hover{
+	color: #fff;
+}
+.bold,.bolder{
+	font-weight: bolder;
+}
+.upp,.upper{
+	text-decoration: underline;
+}
+.it,.ita{
+
+	font-style: italic;
+}
+.search{
+	background: #fff;
+	transition: .5s;
+}
+.search:hover{
+	background: #00cec9;
+	border: 1px solid #fff;
+	color: #fff;
+}
+.change{
+	
+	background: #ee5253;
+	color: #fff;
+}
+/*
+.edit{
+	display: none;
+}*/
+
+/*================upgrade==================*/
+.header-ur .logo img{
+	width: 8rem;
+	height:8rem;
+}
+
+.pricing-title{
+	width: 100%;
+}
+
+.pricing-title h1 span:first-child{
+	font-weight: 500;
+}
+.pricing-title h1 span:last-child{
+	color: rgba(178, 190, 195,1.0);
+}

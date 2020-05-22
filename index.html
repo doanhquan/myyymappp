@@ -1,0 +1,88 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ 	<meta charset="UTF-8">
+ 	<title>Mind map</title>
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+ </head>
+ <body>
+ 	
+	
+	
+ 	<div class=" map f1" >
+			<svg id="mySvg" width="2000px" height="1500px"></svg>
+			<!-- <svg id="mySvg" width="2000px" height="1500px"></svg> -->
+		 	<div class="main f1-item" >
+		 		
+		 		<div class="edit">
+					<h6>F0</h6>
+					
+						<i id="add" class="fas fa-plus-circle"></i>
+						<!-- <i  style="cursor: move;" class="fas fa-arrows-alt"></i> -->
+					
+		 			
+		 			
+
+		 		</div>
+		 	</div>
+		 	
+		 	<div class="row-1 row-2">
+		 		
+		 	</div>
+		 </div>
+	 
+	</div>
+	<div class="tool-bar">
+		<div class="container-fluid">
+			<nav class="navbar navbar-expand-lg ">
+			  <a class="navbar-brand" href="#">Mindmap</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+				<button class="upgrade"><i class="fas fa-star"></i> Upgrade</button>
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  	<div class="mr-auto"></div>
+			    <ul class="navbar-nav mr-auto">
+			      <li class="nav-item active">
+			        <a class="nav-link" href="#"><i id="zoomin" class="fas fa-search-plus"></i> <span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link " href="#"><i id="zoomout" class="fas fa-search-minus"></i></a>
+			      </li>
+			       <li class="nav-item">
+			        <a class="nav-link bold" href="#">B</a>
+			      </li>
+			       <li class="nav-item">
+			        <a class="nav-link upp" href="#">U</a>
+			      </li>
+			       <li class="nav-item">
+			        <a class="nav-link it" href="#">I</a>
+			      </li>
+			      
+			    </ul>
+			    <form class="form-inline my-2 my-lg-0">
+			      <input class="search-val form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+			      <a class="btn search my-2 my-sm-0 ">Search</a>
+			      <a href="#" class="login"><i class="fas fa-user"></i></a>
+			    </form>
+			  </div>
+			</nav>
+		</div>
+	</div>
+	
+	<!-- <div id="div1" style="width: 100px; height: 100px; margin-left: 100px;  background:#e53935 ;position: absolute;"></div>
+
+	<svg width="500" height="500"><line x1="100px" y1="200px" x2="300px" y2="400px" stroke="red" />
+		<line y1="200px" x1="300px" x2="400px" y2="500px" stroke="red" /></svg>
+   <div id="div2" style="width: 100px; height: 100px;  background:#4527a0 ;position: absolute; "></div> -->
+<script src="./js/jquery.3.4.1.js"></script>
+<!-- bootstrap js file-->
+<script src="./js/bootstrap.min.js"></script>
+<!-- custom js file -->
+
+<script src="./js/main.js"></script>
+ </body>
+ </html>
